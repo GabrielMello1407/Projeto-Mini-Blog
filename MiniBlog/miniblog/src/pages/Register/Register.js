@@ -38,9 +38,11 @@ const Register = () => {
     console.log(res)
   }
   useEffect(() => {
+    
     if(authError){
       setError(authError)
     }
+
   },[authError])
 
 
